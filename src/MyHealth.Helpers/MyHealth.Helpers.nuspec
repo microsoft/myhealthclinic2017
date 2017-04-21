@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>$id$</id>
+    <version>$version$</version>
+    <title>$title$</title>
+    <authors>$author$</authors>
+    <owners>$author$</owners>
+    <licenseUrl>https://github.com/PlainConcepts/DevOps-Immersion/tree/master/devops/experience_f_packagemanagement</licenseUrl>
+    <projectUrl>https://github.com/PlainConcepts/DevOps-Immersion/tree/master/devops/experience_f_packagemanagement</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>$description$</description>
+    <releaseNotes>Helpers for internal use in MyHealth.</releaseNotes>
+    <copyright>Copyright 2016</copyright>   
+  </metadata>
+</package>

@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<WebTest Name="PrivateZone" Id="4479f8ba-dcd4-49f4-88fa-d7888c8cea23" Owner="" Priority="2147483647" Enabled="True" CssProjectStructure="" CssIteration="" Timeout="0" WorkItemIds="" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010" Description="" CredentialUserName="" CredentialPassword="" PreAuthenticate="True" Proxy="default" StopOnError="False" RecordedResultFile="PrivateZone.23748953-3053-4fbe-ae80-a8d9ef28661a.rec.webtestresult" ResultsLocale="">
+  <Items>
+    <Request Method="GET" Guid="5ef6721c-0a7f-4790-8472-98ce6c99a7a0" Version="1.1" Url="http://prohealthclinicweb2.azurewebsites.net/Account/Login" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <DependentRequests>
+        <Request Method="GET" Guid="7b05ebd9-32e0-4862-a8bb-0001a872358e" Version="1.1" Url="https://fonts.googleapis.com/css" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Account/Login" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="family" Value="Raleway:100,200,300,400,500,600,700,800,900" RecordedValue="Raleway:100,200,300,400,500,600,700,800,900" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="9600a9a0-d234-4bdf-a4c3-77d23b6e608f" Version="1.1" Url="https://fonts.googleapis.com/css" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Account/Login" />
+          </Headers>
+          <QueryStringParameters>
+            <QueryStringParameter Name="family" Value="Roboto:400,100,100italic,300italic,300,400italic,500,500italic,700,900,700italic,900italic" RecordedValue="Roboto:400,100,100italic,300italic,300,400italic,500,500italic,700,900,700italic,900italic" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+          </QueryStringParameters>
+        </Request>
+        <Request Method="GET" Guid="a1f911f1-7893-4bb2-8c90-fdeeecb29f9c" Version="1.1" Url="https://fonts.gstatic.com/s/raleway/v11/RJMlAoFXXQEzZoMSUteGWD8E0i7KZn-EPnyo3HZu7kw.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Account/Login" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="3fe8fe18-db4d-4766-97db-738e1d11e0dc" Version="1.1" Url="https://fonts.gstatic.com/s/raleway/v11/8KhZd3VQBtXTAznvKjw-kxsxEYwM7FgeyaSgU71cLG0.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Account/Login" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="df529692-2139-41fc-98f2-9390f4904695" Version="1.1" Url="https://fonts.gstatic.com/s/raleway/v11/-_Ctzj9b56b8RgXW8FAriRsxEYwM7FgeyaSgU71cLG0.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Account/Login" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="859027a1-7556-4fb4-90f8-8b8f3c4b2f0f" Version="1.1" Url="https://fonts.gstatic.com/s/raleway/v11/IczWvq5y_Cwwv_rBjOtT0w.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Account/Login" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="715c68dc-d1c2-48f3-9c17-0364a725e6c4" Version="1.1" Url="https://fonts.gstatic.com/s/raleway/v11/CcKI4k9un7TZVWzRVT-T8xsxEYwM7FgeyaSgU71cLG0.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Account/Login" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="f722dae2-3246-4fa2-8ad5-d5e74a00f941" Version="1.1" Url="https://fonts.gstatic.com/s/raleway/v11/xkvoNo9fC8O2RDydKj12bxsxEYwM7FgeyaSgU71cLG0.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Account/Login" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="383af72c-5e75-4fe9-9e55-488231f16a10" Version="1.1" Url="https://fonts.gstatic.com/s/raleway/v11/JbtMzqLaYbbbCL9X6EvaIxsxEYwM7FgeyaSgU71cLG0.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Account/Login" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="e346c4c6-4cd2-4799-9e6f-6af42832f03a" Version="1.1" Url="https://fonts.gstatic.com/s/raleway/v11/1ImRNPx4870-D9a1EBUdPBsxEYwM7FgeyaSgU71cLG0.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Account/Login" />
+          </Headers>
+        </Request>
+        <Request Method="GET" Guid="e6901a1f-0bff-426d-8e93-9daa52a8a4fa" Version="1.1" Url="https://fonts.gstatic.com/s/raleway/v11/PKCRbVvRfd5n7BTjtGiFZBsxEYwM7FgeyaSgU71cLG0.woff" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+          <Headers>
+            <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Account/Login" />
+          </Headers>
+        </Request>
+      </DependentRequests>
+      <ExtractionRules>
+        <ExtractionRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ExtractHiddenFields, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" VariableName="1" DisplayName="Extract Hidden Fields" Description="Extract all hidden fields from the response and place them into the test context.">
+          <RuleParameters>
+            <RuleParameter Name="Required" Value="True" />
+            <RuleParameter Name="HtmlDecode" Value="True" />
+          </RuleParameters>
+        </ExtractionRule>
+      </ExtractionRules>
+    </Request>
+    <Request Method="POST" Guid="a34f32be-bcc1-4737-837d-a46da86f2a16" Version="1.1" Url="http://prohealthclinicweb2.azurewebsites.net/Account/Login" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://prohealthclinicweb2.azurewebsites.net/Dashboard" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Account/Login" />
+      </Headers>
+      <FormPostHttpBody>
+        <FormPostParameter Name="UserName" Value="User" RecordedValue="User" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="Password" Value="P2ssw0rd@1" RecordedValue="P2ssw0rd@1" CorrelationBinding="" UrlEncode="True" />
+        <FormPostParameter Name="__RequestVerificationToken" Value="{{$HIDDEN1.__RequestVerificationToken}}" RecordedValue="CfDJ8B1HNd2dd6NJuKk40V6zWPhHNI1ncb8ezBM7Fdp_M5eoLod90hreMJgF6pX0mI0WWDqkF1cmxHIenttmPmlNMy266HTgDoZjkBqD6G1AlcNmdBRozgytrwM7Ia1SLVyvEe8q2jKymsyKlNEZPAkhEtA" CorrelationBinding="" UrlEncode="True" />
+      </FormPostHttpBody>
+    </Request>
+    <Request Method="GET" Guid="486c9562-e3d9-47fb-8422-f90591e921a2" Version="1.1" Url="http://prohealthclinicweb2.azurewebsites.net/Dashboard" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://prohealthclinicweb2.azurewebsites.net/Dashboard#/" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="0bf98f50-d82d-4df5-8461-8a32a15a006c" Version="1.1" Url="http://prohealthclinicweb2.azurewebsites.net/fonts/icomoon.eot" ThinkTime="3" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Dashboard" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="" Value="4fncrl" RecordedValue="4fncrl" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="e7e7c28c-38aa-411a-837d-5a66129c7682" Version="1.1" Url="http://prohealthclinicweb2.azurewebsites.net/api/users/current/claims" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Dashboard" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="059ce68d-b0c8-497e-a2a1-d5a5ed3d5cf9" Version="1.1" Url="http://prohealthclinicweb2.azurewebsites.net/app/components/shared/directives/headerBar/headerBarTemplate.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Dashboard" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="1e012bd7-5b46-47ae-b31b-1d3f599b1348" Version="1.1" Url="http://prohealthclinicweb2.azurewebsites.net/app/components/shared/directives/leftMenu/leftMenuTemplate.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Dashboard" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="ea39f9c7-4206-40d6-acef-47155b6f2dcb" Version="1.1" Url="http://prohealthclinicweb2.azurewebsites.net/app/components/dashboard/views/main.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="text/html" />
+        <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Dashboard" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="34b48042-c114-4bc9-8f1e-1ded12853827" Version="1.1" Url="http://prohealthclinicweb2.azurewebsites.net/api/users/current/user" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Dashboard" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="0e8ee613-65b9-4f8a-88c8-cdd03c5592c7" Version="1.1" Url="http://prohealthclinicweb2.azurewebsites.net/api/users/current/claims" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Dashboard" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="2ba1c39e-0e9f-4492-87af-c58802d1780f" Version="1.1" Url="http://prohealthclinicweb2.azurewebsites.net/api/users/current/user" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Dashboard" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="f3503afd-0f0a-4f17-a99e-b5a6454a45bf" Version="1.1" Url="http://prohealthclinicweb2.azurewebsites.net/api/users/current/claims" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Dashboard" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="3fe6bae3-fdda-45ad-85cf-4e240c06e586" Version="1.1" Url="http://prohealthclinicweb2.azurewebsites.net/api/users/current/tenant" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Dashboard" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="9247a09d-f82c-4b97-b6af-51c3cd361900" Version="1.1" Url="http://prohealthclinicweb2.azurewebsites.net/api/users/current/tenant" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Dashboard" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="6f45c37d-166d-42d5-814a-3e57143cbf53" Version="1.1" Url="http://prohealthclinicweb2.azurewebsites.net/api/users/current/tenant" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Dashboard" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="fbe0f633-8529-42ad-b0a8-a701220bb632" Version="1.1" Url="http://prohealthclinicweb2.azurewebsites.net/api/reports/clinicsummary" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Dashboard" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="322d149a-16b0-4c79-9740-76db96edcf55" Version="1.1" Url="http://prohealthclinicweb2.azurewebsites.net/api/reports/expenses/2016" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Dashboard" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="9a2e0fbe-4c23-4c7b-a916-44ecbcb9f6ac" Version="1.1" Url="http://prohealthclinicweb2.azurewebsites.net/api/reports/patients/2016" ThinkTime="4" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Dashboard" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="65220b30-b724-4d64-8b12-03edd380ccd9" Version="1.1" Url="http://prohealthclinicweb2.azurewebsites.net/app/components/doctors/views/main.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="text/html" />
+        <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Dashboard" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="ae55d7f0-5f8c-45ca-bd94-f7f91600385f" Version="1.1" Url="http://prohealthclinicweb2.azurewebsites.net/Dashboard" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://prohealthclinicweb2.azurewebsites.net/Dashboard#/doctors" ReportingName="" IgnoreHttpStatusCode="False" />
+    <Request Method="GET" Guid="837dfbe4-4999-4405-9acd-3c0cb8705c6c" Version="1.1" Url="http://prohealthclinicweb2.azurewebsites.net/api/users/current/tenant" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Dashboard" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="bb5cef68-9ebc-4526-b9a1-59627488bfcb" Version="1.1" Url="http://prohealthclinicweb2.azurewebsites.net/api/doctors" ThinkTime="5" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Dashboard" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="pageCount" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="pageSize" Value="4" RecordedValue="4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="61b9f4c1-19a6-449c-bfaf-6b2ad6dfe8fe" Version="1.1" Url="http://prohealthclinicweb2.azurewebsites.net/app/components/patients/views/main.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="text/html" />
+        <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Dashboard" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="b7c4d226-e98b-4734-a099-7cc92dd4edc4" Version="1.1" Url="http://prohealthclinicweb2.azurewebsites.net/api/users/current/tenant" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Dashboard" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="0891ebb5-26a3-495a-a35a-271dbecc4e74" Version="1.1" Url="http://prohealthclinicweb2.azurewebsites.net/api/patients" ThinkTime="2" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Dashboard" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="pageCount" Value="0" RecordedValue="0" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="pageSize" Value="4" RecordedValue="4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="25bf0ee0-988d-4f6d-bee4-85030c066382" Version="1.1" Url="http://prohealthclinicweb2.azurewebsites.net/api/users/current/tenant" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Dashboard" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="bd99a0e3-355b-4b76-b06f-babfe20cbce9" Version="1.1" Url="http://prohealthclinicweb2.azurewebsites.net/api/patients" ThinkTime="1" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Dashboard" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="pageCount" Value="1" RecordedValue="1" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="pageSize" Value="4" RecordedValue="4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="2beee13e-f411-46d8-97cb-a2c70c10bdbc" Version="1.1" Url="http://prohealthclinicweb2.azurewebsites.net/api/users/current/tenant" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Dashboard" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="b317523b-58f6-466b-ac07-6e7484472d45" Version="1.1" Url="http://prohealthclinicweb2.azurewebsites.net/api/patients" ThinkTime="9" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="application/json, text/plain, */*" />
+        <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Dashboard" />
+      </Headers>
+      <QueryStringParameters>
+        <QueryStringParameter Name="pageCount" Value="2" RecordedValue="2" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+        <QueryStringParameter Name="pageSize" Value="4" RecordedValue="4" CorrelationBinding="" UrlEncode="False" UseToGroupResults="False" />
+      </QueryStringParameters>
+    </Request>
+    <Request Method="GET" Guid="961d2989-bfb4-4419-b518-8381a927bc84" Version="1.1" Url="http://prohealthclinicweb2.azurewebsites.net/app/components/dailyReport/views/main.html" ThinkTime="0" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="" ReportingName="" IgnoreHttpStatusCode="False">
+      <Headers>
+        <Header Name="Accept" Value="text/html" />
+        <Header Name="Referer" Value="http://prohealthclinicweb2.azurewebsites.net/Dashboard" />
+      </Headers>
+    </Request>
+    <Request Method="GET" Guid="edfddd85-313b-4880-aa23-c9b3aed19ee6" Version="1.1" Url="http://prohealthclinicweb2.azurewebsites.net/Dashboard" ThinkTime="5" Timeout="300" ParseDependentRequests="True" FollowRedirects="True" RecordResult="True" Cache="False" ResponseTimeGoal="0" Encoding="utf-8" ExpectedHttpStatusCode="0" ExpectedResponseUrl="http://prohealthclinicweb2.azurewebsites.net/Dashboard#/dailyreport" ReportingName="" IgnoreHttpStatusCode="False" />
+  </Items>
+  <ValidationRules>
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidateResponseUrl, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response URL" Description="Validates that the response URL after redirects are followed is the same as the recorded response URL.  QueryString parameters are ignored." Level="Low" ExectuionOrder="BeforeDependents" />
+    <ValidationRule Classname="Microsoft.VisualStudio.TestTools.WebTesting.Rules.ValidationRuleResponseTimeGoal, Microsoft.VisualStudio.QualityTools.WebTestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" DisplayName="Response Time Goal" Description="Validates that the response time for the request is less than or equal to the response time goal as specified on the request.  Response time goals of zero will be ignored." Level="Low" ExectuionOrder="AfterDependents">
+      <RuleParameters>
+        <RuleParameter Name="Tolerance" Value="0" />
+      </RuleParameters>
+    </ValidationRule>
+  </ValidationRules>
+</WebTest>
