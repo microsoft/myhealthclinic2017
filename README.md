@@ -1,4 +1,4 @@
-#My Health Clinic
+# My Health Clinic
 ![](mhc-dashboard.png)
 
 ## Overview
